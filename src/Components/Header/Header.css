@@ -1,0 +1,126 @@
+.header-section {
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+.logo {}
+
+.logo h2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.header-search-input {}
+
+.header-search-icon {
+    position: relative;
+    left: 25px;
+    font-size: 14px;
+}
+
+.header-search-input input {
+    width: 95%;
+    background: #f3f3f3;
+    border: 1px solid #e3e3e3;
+    height: 35px;
+    font-size: 14px;
+    padding-left: 32px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li.dark-mode {
+    margin-left: 35px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+.dark-mode-icon {
+    font-size: 24px;
+    margin-left: -20px;
+}
+
+.dark-mode-icon {
+    margin-left: -3px;
+    margin-top: -5px;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+/* ==========Media Query=========== */
+
+@media only screen and (max-width:479px) {
+    .container {
+        max-width: 400px;
+    }
+
+    .logo h2 {
+        font-size: 20px;
+    }
+
+    .banner-content h4 {
+        font-size: 24px;
+        width: 264px;
+        display: inline-block;
+    }
+
+    .banner-content span {
+        color: #f1f1f1;
+        width: 214px;
+        font-size: 12px;
+    }
+
+    .banner-content input {
+        width: 337px;
+        padding-left: 33px;
+        padding-right: 24px;
+        font-size: 11px;
+        height: 37px;
+    }
+
+    .image-gallery-section {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-width: 50%;
+        -moz-column-width: 50%;
+        column-width: 50%;
+        /* width: 1320px; */
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .header-search-input,
+    .menu {
+        display: none;
+    }
+
+    .hamburger-menu {
+        margin-top: -35px;
+        margin-left: 190%;
+        display: block;
+    }
+
+    .menu-icon {
+        font-size: 24px;
+    }
+}

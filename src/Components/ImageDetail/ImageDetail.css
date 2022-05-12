@@ -1,0 +1,172 @@
+.img-detail-section{
+    overflow: hidden;
+}
+.popup-img-detail{
+    position: relative;
+}
+.popup-img-detail img{
+    width: 100%;
+    /* height: 100vh; */
+    /* height: 95vh; */
+    margin: 0 auto;
+}
+.img-share-download{
+    /* position: absolute;
+    bottom: 160px;
+    left: 40px; */
+    display: flex;
+    margin-top: -64px;
+    margin-left: 25px;
+}
+.share-info{}
+.share-info button{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    padding: 5px 25px;
+    margin-right: 15px;
+    border-radius: 4px;
+}
+.download-img{margin-left: 63%;}
+.download-img a{
+    background: #3CB46E;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    width: 165px;
+    height: 47px;
+    margin-top: -19px;
+    font-weight: 600;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.popup-image-content{
+    width: 100%;
+    box-shadow: 0px 0px 10px 3px #efefef;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.user-info-likes{
+    display: flex;
+}
+.popup-user-info{
+    display: flex;
+    justify-content: flex-start;
+}
+.popup-user-info img{
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+.popup-user-info h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+.popup-user-name{
+    margin-left: 12px;
+}
+.popup-user-info span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #868080;
+}
+.user-social-media{
+    margin-left: 30px;
+}
+.user-social-media span{
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 600;
+    color: #919191;
+}
+.social-icon{color: #696969}
+.likes-downloads{}
+.likes-downloads h6{font-weight: 600;color: #8a8a8a;}
+.like-btn{font-size: 25px;}
+.dialog-content{
+    width: 100%;
+}
+html body div.MuiModal-root.MuiDialog-root.css-zw3mfo-MuiModal-root-MuiDialog-root div.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    max-width: 1260px;
+}
+.modal-cross-btn{
+    width: 99%;
+    text-align: right;
+    margin-left: -14px;
+    height: 0px;
+}
+.modal-cross-btn button{
+    width: 40px;
+    background: #fcfcfc;
+    border: 1px solid #cecece;
+    margin-top: 8px;
+    color: #000;
+    z-index: 20;
+    position: relative;
+    height: 40px;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+/* ==========Media Query=========== */
+
+
+@media only screen and (max-width:479px){
+    .share-info button {
+        font-size: 9px;
+        padding: 4px 12px;
+        display: flex;
+        margin-bottom: 15px;
+      }
+      .share-info {
+        margin-top: -30px;
+      }
+      .download-img {
+        margin-left: 29%;
+        margin-top: -15px;
+      }
+      .download-img a {
+        font-size: 12px;
+        width: 117px;
+        height: 37px;
+        margin-top: -19px;
+        padding-top: 9px;
+      }
+      .popup-image-content {
+        padding: 5px;
+          padding-top: 5px;
+        margin-top: 20px;
+        padding-top: 17px;
+      }
+      .popup-user-info img {
+        width: 50px;
+        height: 50px;
+      }
+      .popup-user-info h4 {
+        font-size: 12px;
+        margin-top: 4px;
+      }
+      .popup-user-info span {
+        font-size: 12px;}
+     .user-social-media {
+            margin-left: 10px;
+          }
+      .user-social-media span {
+            margin-top: 5px;
+            font-size: 12px;
+          }
+    .popup-image-content {display: block;}
+    .likes-downloads {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 10px;}
+}
